@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section id="cont-general">
+        <div class="left">
+            <h2>INTERACIONES</h2>
+            <button id="circulo"onclick="circulo()">CIRCULO</button>
+            <button id="rombo"onclick="rombo()">ROMBO</button>
+            <button id="fondo"onclick="fondo()">FONDO COLOR</button>
+            <button id="imagen"onclick="imagen()">FONDO IMAGEN</button>
+            <button id="top"onclick="moverArriba()">TOP</button>
+            <button id="left"onclick="izquierda()">LEFT</button>
+            <button id="tottom"onclick="bottom()">BOTTOM</button>
+            <button id="rigth"onclick="derecha()">RIGTH</button>
+            <button id="diagonal"onclick="diagonal()">DIAGONAL</button>
+            <button id="animation" onclick="animation()">ANIMATION</button>
+            <button id="fondodegradado" onclick="fondoDegradado()">FONDO DEGRADADO</button> 
+            <button id="estrella" onclick="estrella()">ESTRELLA</button>
+            <button id="panel" onclick="panelLateral()">PANEL LATERAL</button>
+            <button id="panelsup" onclick="panelsuperior()">PANEL SUPERIOR</button>
+            
+            
+        </div>
+
+        <div class="right">
+
+            <h2 id="titulo">FIGURA</h2>
+
+            <div id="figura"></div>
+
+        </div>
+        <div id="panel-lateral" class="">
+            <h2>Menu</h2>
+            <button id="panel" onclick="panelLateral()">X</button>
+            <li>Inicio</li>
+            <li>Productos</li>
+            <li>Servicios</li>
+            <li>Contactos</li>
+        </div>
+        <div id="panel-superior">
+        
+           
+            <div class="row">
+                <h2>Mi Panel Superior</h2>
+                <button id="panelSuperior" onclick="panelsuperior()">X</button>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tMRnpO8uzN4?si=ytend-AIrpz04GwS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </div>
+
+    </section>
+    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
